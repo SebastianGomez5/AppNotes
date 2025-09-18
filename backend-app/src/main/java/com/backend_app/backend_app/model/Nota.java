@@ -21,4 +21,11 @@ public class Nota {
     @Column( nullable = false)
     private String contenido;
 
+    // Constructor sin el campo 'id'
+    public Nota(String titulo, String contenido) {
+        this.titulo = titulo;
+        this.contenido = contenido;
+    }
+
+
 }
