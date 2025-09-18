@@ -30,7 +30,9 @@ Run the **Spring Boot app**:
 ```
 The backend will be available at: http://localhost:8080/api/notas
 **Default Database**: H2 (in-memory).
+
 Access H2 Console: http://localhost:8080/h2-console
+
 Use `jdbc:h2:mem:testdb` as the JDBC URL.
 
 
@@ -55,7 +57,7 @@ The frontend will be available at: http://localhost:5173
 Here’s how the app looks:
 ![App Screenshot](https://i.ibb.co/N6JdG2PY/Captura-de-pantalla-2025-09-18-122515.jpg)
 
-#### Preview
+#### Features
 - Create new notes
 - Edit existing notes
 - Delete notes
